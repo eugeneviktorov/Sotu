@@ -1,0 +1,150 @@
+.C1{
+    border: 2px solid #f1f1f1;
+    background: #f1f1f1;
+    padding: 3px;
+    border-radius:5px; 
+    font-size: 18px;
+    margin: auto;
+    text-align: left;
+    width: 50%;}
+
+@media (min-width:280px){
+.C1{width: 95%;}}
+
+@media (min-width:320px){
+.C1{width: 90%;}}
+
+@media (min-width:480px){
+.C1{width: 90%;}}
+
+@media (min-width:768px){
+.C1{width: 50%;}}
+
+.C2{
+    padding-left: 27%;
+    text-align: left;
+    width: 735px;
+    font-size: 18px;}
+
+@media (min-width:280px){
+.C2{padding-left: 0;
+    width: 100%}}
+
+@media (min-width:320px){
+.C2{padding-left: 7%;
+    width: 85%}}
+
+@media (min-width:480px){
+.C2{padding-left: 10%;
+    width: 85%}}
+
+@media (min-width:768px){
+.C2{padding-left: 27%;
+    width: 45%}}
+
+.AA1{
+    position:absolute;
+    display:flex;
+    padding-top: 0px;}
+
+.AA3{
+    position:absolute;
+    top:0;
+    right:0;
+    left:10px;}
+
+.AA5{
+    flex-grow:1;
+    align-items:center;
+    text-align: center;
+    display:flex ;
+    flex-basis:auto}
+
+.TXT1{text-decoration:none;
+    cursor: default;
+    padding-right:.5rem;
+    padding-left:.5rem;
+    color:rgb(0, 0, 0)}
+
+br{
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */}
+
+.text1{font-size: 15px;}
+.text1,
+input[type="checkbox"] {display: none;}
+input[type="checkbox"]:checked ~ .text1 {display: block;}
+.btn1{
+  display: inline-block;
+  margin-bottom: 4px;
+  padding: 4px 25px;
+  font-size: 16px;
+  background-color: #ffffff;
+  cursor: pointer;}
+
+.text2{font-size: 15px;}
+.text2,
+input[type="checkbox"] {display: none;}
+input[type="checkbox"]:checked ~ .text2 {display: block;}
+.btn2{
+  display: inline-block;
+  margin-bottom: 4px;
+  padding: 4px 25px;
+  font-size: 16px;
+  background-color: #ffffff;
+  cursor: pointer;}
+
+.text3{font-size: 15px;}
+.text3,
+input[type="checkbox"] {display: none;}
+input[type="checkbox"]:checked ~ .text3 {display: block;}
+.btn3{
+  display: inline-block;
+  margin-bottom: 4px;
+  padding: 4px 25px;
+  font-size: 16px;
+  background-color: #ffffff;
+  cursor: pointer;}
+
+.text4{font-size: 15px;}
+.text4,
+input[type="checkbox"] {display: none;}
+input[type="checkbox"]:checked ~ .text4 {display: block;}
+.btn4{
+  display: inline-block;
+  margin-bottom: 4px;
+  padding: 4px 25px;
+  font-size: 16px;
+  background-color: #ffffff;
+  cursor: pointer;}
+
+.text5{font-size: 15px;}
+.text5,
+input[type="checkbox"] {display: none;}
+input[type="checkbox"]:checked ~ .text5{display: block;}
+.btn5{
+  display: inline-block;
+  margin-bottom: 4px;
+  padding: 4px 25px;
+  font-size: 16px;
+  background-color: #ffffff;
+  cursor: pointer;}
+
+.text6{font-size: 15px;}
+.text6,
+input[type="checkbox"] {display: none;}
+input[type="checkbox"]:checked ~ .text6{display: block;}
+.btn6{
+  display: inline-block;
+  margin-bottom: 4px;
+  padding: 4px 25px;
+  font-size: 16px;
+  background-color: #ffffff;
+  cursor: pointer;}
+
+::-webkit-scrollbar {width: 10px;}
+::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background: #999;}
